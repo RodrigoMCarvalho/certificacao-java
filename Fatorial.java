@@ -20,7 +20,7 @@ class Fatorial {
 			res = num * prox;
 		
 			for (int i = prox - 1 ; i >= 1 ; --i){
-				res = res * i;
+				res *= i;
 				System.out.print("x" + i);
 			}
 		} else if (num == 0){
