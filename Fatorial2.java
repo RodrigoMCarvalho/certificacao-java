@@ -28,7 +28,7 @@ class Calculadora{
 		for (int i = num ; i >= 1 ; i-- ){
 			res *= i;
 			//System.out.print("x" + i);
-			//OBS: para usar "5x4x3x2x1" deverá fazer num - (num -1)
+			//OBS: para mostrar "5x4x3x2x1" deverá fazer num - (num -1)
 		}
 		return res;
 	}
